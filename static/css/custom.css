@@ -1,0 +1,99 @@
+body {
+    background: #00e6ac; !important;/* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.required {
+    color: #FF0000;
+}
+
+.navbar-brand {
+    color: #000 !important;
+}
+.color-black {
+    color: #000 !important;
+}
+
+/* Margins Start Here */
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.ml-30 {
+    margin-left: 30px;
+}
+.ml-50 {
+    margin-left: 50px;
+}
+.ml-100 {
+    margin-left: 100px;
+}
+/* Margins Ends Here */
+.template-text {
+    font-weight:bold;
+    font-family: 'Lato', sans-serif;
+    font-size:38px;
+    color:white;
+    text-align: center;
+}
+
+.wrapper {
+    background-color: #F6F6F6;
+}
+.row-outer {
+    padding: 1px;
+    background-color: #F6F6F6;
+    /* margin-left: -15px;
+    margin-right: -15px; */
+}
+.column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    /* background-color: #0397bc; */
+}
+.price-box {
+    background-color: #00664d;
+}
+.inner.inner-menu {
+    background-color:  #00664d;
+}
+/*.vc_color-info.vc_message_box {*/
+    /*color: #5e7f96;*/
+    /*border-color: #cfebfe;*/
+    /*background-color: #dff2fe;*/
+   /* margin: 5px; */
+}
+.vc_message_box-rounded {
+    border-radius: 5px;
+}
+.vc_message_box {
+    border: 1px solid transparent;
+    display: block;
+    overflow: hidden;
+    margin: 0 0 21.73913043px 0;
+    padding: 1em 1em 1em 3em;
+    position: relative;
+    font-size: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.extra-service-heading {
+  font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #003326;
+    font-size: 40px;
+}
+.packages-heading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #003326;
+}
+.packages-button{
+    background-color: #040288;
+}

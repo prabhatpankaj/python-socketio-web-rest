@@ -1,0 +1,13 @@
+aiohttp
+async-timeout
+git+git://github.com/python-attrs/attrs.git
+certifi
+chardet
+idna
+multidict
+python-engineio
+python-socketio
+requests
+six
+urllib3
+yarl

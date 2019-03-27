@@ -1,0 +1,31 @@
+01:28:17 PM | engineio.server | INFO: Server initialized for aiohttp.
+01:28:37 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:36 +0000] "GET / HTTP/1.1" 200 2159 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:37 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:37 +0000] "GET /static/css/style.css HTTP/1.1" 200 298800 "http://127.0.0.1:8081/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:37 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:37 +0000] "GET /static/css/custom.css HTTP/1.1" 200 2095 "http://127.0.0.1:8081/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:37 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:37 +0000] "GET /static/js/jquery3.3.1.min.js HTTP/1.1" 200 87146 "http://127.0.0.1:8081/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:37 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:37 +0000] "GET /static/js/bootstrap4.3.1.min.js HTTP/1.1" 200 58292 "http://127.0.0.1:8081/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:37 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:37 +0000] "GET /static/js/popper1.14.7.min.js HTTP/1.1" 200 21223 "http://127.0.0.1:8081/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:37 PM | engineio.server | INFO: 7f88032bd84444b99d83e3bd1324cf07: Sending packet OPEN data {'sid': '7f88032bd84444b99d83e3bd1324cf07', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+01:28:37 PM | engineio.server | INFO: 7f88032bd84444b99d83e3bd1324cf07: Sending packet MESSAGE data 0
+01:28:37 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:37 +0000] "GET /socket.io/?EIO=3&transport=polling&t=Mc-A7gF HTTP/1.1" 200 411 "http://127.0.0.1:8081/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:37 PM | engineio.server | INFO: 7f88032bd84444b99d83e3bd1324cf07: Received request to upgrade to websocket
+01:28:37 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:37 +0000] "GET /socket.io/?EIO=3&transport=polling&t=Mc-A7hi&sid=7f88032bd84444b99d83e3bd1324cf07 HTTP/1.1" 200 245 "http://127.0.0.1:8081/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:37 PM | engineio.server | INFO: 7f88032bd84444b99d83e3bd1324cf07: Upgrade to websocket successful
+01:28:56 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:56 +0000] "GET / HTTP/1.1" 200 2082 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:56 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:37 +0000] "GET /socket.io/?EIO=3&transport=websocket&sid=7f88032bd84444b99d83e3bd1324cf07 HTTP/1.1" 101 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:56 PM | engineio.server | INFO: 4dd3ace4d7014c4aae2edc0f5e51bae5: Sending packet OPEN data {'sid': '4dd3ace4d7014c4aae2edc0f5e51bae5', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+01:28:56 PM | engineio.server | INFO: 4dd3ace4d7014c4aae2edc0f5e51bae5: Sending packet MESSAGE data 0
+01:28:56 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:56 +0000] "GET /socket.io/?EIO=3&transport=polling&t=Mc-ACFe HTTP/1.1" 200 411 "http://127.0.0.1:8081/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:56 PM | engineio.server | INFO: 4dd3ace4d7014c4aae2edc0f5e51bae5: Received request to upgrade to websocket
+01:28:56 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:58:56 +0000] "GET /socket.io/?EIO=3&transport=polling&t=Mc-ACGE&sid=4dd3ace4d7014c4aae2edc0f5e51bae5 HTTP/1.1" 200 245 "http://127.0.0.1:8081/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+01:28:56 PM | engineio.server | INFO: 4dd3ace4d7014c4aae2edc0f5e51bae5: Upgrade to websocket successful
+01:29:21 PM | engineio.server | INFO: 4dd3ace4d7014c4aae2edc0f5e51bae5: Received packet PING data None
+01:29:21 PM | engineio.server | INFO: 4dd3ace4d7014c4aae2edc0f5e51bae5: Sending packet PONG data None
+01:29:45 PM | socketio.server | INFO: emitting event "message" to all [/]
+01:29:45 PM | engineio.server | INFO: 4dd3ace4d7014c4aae2edc0f5e51bae5: Sending packet MESSAGE data 2["message",{"customername":"value1","carnumber":"value2"}]
+01:29:45 PM | root | INFO: userdata response {'customername': 'value1', 'carnumber': 'value2'}
+01:29:45 PM | aiohttp.access | INFO: 127.0.0.1 [27/Mar/2019:07:59:45 +0000] "POST /userdata?customername=value1&carnumber=value2 HTTP/1.1" 200 172 "-" "python-requests/2.21.0"
+01:29:46 PM | engineio.server | INFO: 4dd3ace4d7014c4aae2edc0f5e51bae5: Received packet PING data None
+01:29:46 PM | engineio.server | INFO: 4dd3ace4d7014c4aae2edc0f5e51bae5: Sending packet PONG data None
+01:30:11 PM | engineio.server | INFO: 4dd3ace4d7014c4aae2edc0f5e51bae5: Received packet PING data None
+01:30:11 PM | engineio.server | INFO: 4dd3ace4d7014c4aae2edc0f5e51bae5: Sending packet PONG data None
